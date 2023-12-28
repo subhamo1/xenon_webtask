@@ -1,0 +1,99 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #1622b038;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1rem;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+span {
+    font-family: fantasy;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    text-align: left;
+    margin: auto;
+    border: 1px solid rgb(26, 26, 26);
+    padding: 2rem;
+    color: aliceblue;
+    border-radius: 10px;
+    background: linear-gradient(264deg, rgba(87, 87, 213, 0.47), rgb(188, 46, 74));
+}
+
+form input,
+button {
+    margin: 0.8rem;
+    padding: 10px;
+}
+
+button {
+    background-color: steelblue;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s linear;
+}
+
+button:hover {
+    background-color: rgb(34, 128, 204);
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: aliceblue;
+    padding: 20px;
+    position: absolute;
+    bottom: 2vh;
+    right: 0;
+    left: 0;
+
+}
+
+pre {
+    font-size: 5vw;
+    color: rgb(161, 36, 142);
+}
